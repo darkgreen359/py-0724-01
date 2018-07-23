@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.233.8.196:5000/kyamato/py-0724-01
+  tag: 0.0.3
   pullPolicy: IfNotPresent
 service:
   name: py-0724-01
